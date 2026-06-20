@@ -1,4 +1,4 @@
-FROM alpine:3.16.0
+FROM alpine:3.24.1@sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b
 
 LABEL base=alpine engine=jvm version=java11 timezone=UTC port=8080 dir=/opt/app user=app
 ARG ZULU_PKG="zulu11"
